@@ -30,7 +30,7 @@ export class AppComponent  {
     p.setup = () => {
 
       p.createCanvas(400, 400);
-      img = p.createImg('https://raw.githubusercontent.com/nadeemcite/ml5-learn/master/src/assets/images/car.png?raw=true',()=>{
+      img = p.createImg('https://raw.githubusercontent.com/nadeemcite/ml5-learn/master/src/assets/images/nadeem.png?raw=true',()=>{
           p.image(img, 0, 0, p.width, p.height);
       });
       img.hide();
